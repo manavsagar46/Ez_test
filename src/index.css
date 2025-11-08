@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Island+Moments&display=swap');
+
+@import "tailwindcss";
+
+.noise-overlay {
+  background-image: 
+    url("./assets/Background/BG.png");
+  background-size: cover;
+  mix-blend-mode: overlay;  /* blend noise with the background color */
+}
+
+@theme{
+    --font-instrument-sans: "Instrument Sans", sans-serif;
+    --font-island-moments: "Island Moments", cursive;
+    --font-halant: "Halant", serif;
+}
