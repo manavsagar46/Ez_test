@@ -1,7 +1,7 @@
 import FormSection from "./components/FormSection";
 import HeroSection from "./components/HeroSection";
-import Navbar from "./components/navbar";
-import SecondSection from "./components/secondSection";
+import Navbar from "./components/Navbar";
+import SecondSection from "./components/SecondSection";
 
 function App() {
   return (
